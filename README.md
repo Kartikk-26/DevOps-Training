@@ -47,8 +47,8 @@
 -  Learn about the DevOps lifecycle and associated tools.  
 
 ### **4. Version Control with Git**  
-- 🌲 Explore version control fundamentals and branching.  
-- 🔧 Master Git workflows, merging branches, and advanced commands.  
+- Explore version control fundamentals and branching.  
+- Master Git workflows, merging branches, and advanced commands.  
 
 ### **5.  Ansible**  
 -  Deploy and configure Ansible.  
@@ -114,7 +114,7 @@ To access the training material and modules, you can clone this repository to yo
 2. **📂 Clone the Repository**  
    Open your terminal or command prompt, navigate to your desired directory, and run:  
    ```bash  
-   git clone https://github.com/YourUsername/DevOps-Training.git  
+   git clone https://github.com/Kartikk-26/DevOps-Training.git  
    ```  
 
 3. **📁 Access the Repository**  
