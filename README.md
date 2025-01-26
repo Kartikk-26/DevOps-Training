@@ -1,5 +1,5 @@
 
-# **💡 DevOps Training**  
+# **♾️ DevOps Training**  
 
 ## 🛠️ **Training Overview**  
 - This repository contains materials for the **DevOps Training** program.  
