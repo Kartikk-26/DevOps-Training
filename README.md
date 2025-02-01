@@ -4,7 +4,7 @@
 ## 🛠️ **Training Overview**  
 - This repository contains materials for the **DevOps Training** program.  
 - It offers a comprehensive curriculum covering Linux System Administration, Server Management, and DevOps Principles.  
-- Key topics include Containerization, Continuous Integration, and Cloud Computing.  
+- Key topics include Containerization, Continuous Integration & Development and Cloud Computing.  
 - Designed to provide hands-on learning and real-world **DevOps expertise**.   
 
 ---
