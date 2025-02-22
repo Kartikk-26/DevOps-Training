@@ -1,0 +1,25 @@
+---
+ - name: creating a user
+   hosts: all
+   vars_files:
+     - variable.yml  #this is the file which store variable
+   tasks: 
+     - name: Create first user
+       user: 
+         name: "{{ user_1 }}"
+         state: present  
+     
+     - name: Create second user
+       user: 
+         name: "{{ user_2 }}"
+         state: present
+
+     - name: Creating first group
+       group: 
+         name: "{{ group_1 }}"
+         state: present
+
+     - name: Creating second group
+       group:
+         name: "{{ group_2 }}"
+         state: present

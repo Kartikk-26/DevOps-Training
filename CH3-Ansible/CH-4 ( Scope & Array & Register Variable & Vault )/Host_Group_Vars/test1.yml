@@ -1,0 +1,16 @@
+---
+- name: Creating users
+  hosts: all
+  become: true  # Ensures root privileges for user creation
+  vars_files:
+    - vault.yaml  # Loads encrypted variables
+
+  tasks:
+    - name: Debug user variable
+      debug:
+        msg: "User to be created: {{ user_1 }}"
+
+    - name: Creating multiple users
+      user:
+        name: "{{ user_1 }}"
+        state: present

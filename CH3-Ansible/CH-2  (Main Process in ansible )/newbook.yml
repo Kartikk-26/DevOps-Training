@@ -1,0 +1,32 @@
+---
+ - name: Using modules like group,user,yum,file
+   hosts: all
+   tasks: 
+     - name: Create a group
+       group:
+         name: redhat
+         state: present
+
+     - name: create a user
+       user:
+        name: harsh
+        uid:  '1200'
+        groups: redhat  
+        state: present
+    
+     - name: intalling webserver
+       yum:
+        name: httpd
+        state: present
+
+     - name: creating a file
+       file:
+        path: /mnt/test
+        state: touch
+     
+     - name: adding a line
+       lineinfile:
+         path: /mnt/test
+         line: 'this is for testing'        
+         create: yes
+         state: present 

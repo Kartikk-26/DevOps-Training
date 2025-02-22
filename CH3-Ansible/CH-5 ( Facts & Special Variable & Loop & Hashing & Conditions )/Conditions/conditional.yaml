@@ -1,0 +1,9 @@
+---
+ - name: 
+   hosts: all
+   tasks:
+     - name:
+       user: 
+         name: user100
+         state: present
+       when: ansible_distribution == "RedHat"

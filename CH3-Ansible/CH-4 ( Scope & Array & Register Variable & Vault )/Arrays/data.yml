@@ -1,0 +1,25 @@
+---
+ - name: Creating a playbook for array
+   hosts: all
+   vars_files:
+     - array.yaml   
+   tasks: 
+     - name: Creating a new playbook for user with array
+       user: 
+         name: "{{ custom.development.user }}"
+         state: present
+
+     - name: Creating a group for development department with array
+       group:
+          name: "{{ custom.development.group }}"
+          state: present  
+          
+     - name: Creating a user for production department with array
+       user:
+          name: "{{ custom.production.user }}"
+          state: present
+
+     - name: Creating a group for production wirh array
+       group:
+          name: "{{ custom.production.group }}"
+          state: present

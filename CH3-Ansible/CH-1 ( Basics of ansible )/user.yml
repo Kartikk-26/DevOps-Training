@@ -1,0 +1,8 @@
+---
+ - name: we are creating a user.
+   hosts: all
+   tasks:
+     - name: creating user tiger
+       user:
+         name: tiger
+         state: present

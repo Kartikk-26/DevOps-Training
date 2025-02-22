@@ -1,0 +1,21 @@
+ - name: Creating multiplaybook
+   hosts: server1.com
+   tasks: 
+     - name: remove httpd
+       yum:
+        name: httpd
+        state: absent
+
+     - name: Delete a user
+       user: 
+         name: harsh
+         state: absent
+
+ - name: Creating multiplay
+   hosts: server2.com
+   tasks:
+     - name: COpy File and Change permission
+       copy:
+        src: /root/ansible/devops
+        mode: '666'
+        dest: /mnt/

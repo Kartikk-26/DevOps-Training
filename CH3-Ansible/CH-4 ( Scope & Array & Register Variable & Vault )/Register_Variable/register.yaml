@@ -1,0 +1,13 @@
+---
+ - name: Creating a user by register variables
+   hosts: all
+   tasks: 
+     - name: Testing variable while creating user
+       user: 
+         name: Vikram
+         state: present
+       register: result
+      
+     - name: Print the variable
+       debug: 
+         var: result  

@@ -1,0 +1,7 @@
+---
+ - name: Writing facts
+   hosts: all
+   tasks: 
+     - name: Testing facts
+       debug: 
+          var: ansible_date_time 
