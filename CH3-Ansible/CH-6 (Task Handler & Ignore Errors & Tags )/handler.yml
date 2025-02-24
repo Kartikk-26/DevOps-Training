@@ -1,0 +1,26 @@
+---
+- name: Using handler
+  hosts: server1.com , server2.com
+  force_handlers: yes
+  tasks:
+    - name: Create user
+      user:
+        name: user22222
+        state: present
+      notify: Creating a group  
+
+    - name: Using yum
+      yum:
+        name: httpd
+        state: present
+      ignore_errors: yes    
+      notify: Making file  # Notify the handler to create the file
+
+  handlers:
+    - name: Creating a group  
+      group:
+        name: group302222
+        state: present
+
+    - name: Making file  
+      command: "touch /root/file011111"

@@ -1,0 +1,9 @@
+---
+ - name: Using conditions
+   hosts: all
+   tasks:
+     - name: Installing Nginx
+       yum: 
+         name: nginx
+         state: present
+       when: ansible_memfree_mb < 1000 

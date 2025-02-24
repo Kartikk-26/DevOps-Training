@@ -1,0 +1,21 @@
+---
+- name: Using tag
+  hosts: server1.com , server2.com
+  tasks:
+    - name: Create user
+      user:
+        name: user511
+        state: present
+      tags: 
+        - hello
+        - user  
+
+    - name: create file
+      file:
+        path: /root/tags
+        state: touch
+      tags: 
+        - file
+
+    - name: 
+      raw: "useradd elvish" 
