@@ -14,12 +14,11 @@
 📂 DevOps-Training/
 ├── 📂 Linux - Red Hat Certified System Administrator (RHCSA)/
 ├── 📂 Server Administration/
-├── 📂 Introduction to DevOps/
-├── 📂 Version Control with Git/
 ├── 📂 Ansible/
+├── 📂 AWS Cloud/
+├── 📂 Version Control with Git/
 ├── 📂 Continuous Integration with Jenkins/
 ├── 📂 Containerization Using Docker/
-├── 📂 AWS Cloud/
 ├── 📂 Terraform Modules & Workspaces/
 ├── 📂 Red Hat OpenShift Administration with Kubernetes/
 ├── 📂 Monitoring/
