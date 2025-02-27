@@ -1,0 +1,9 @@
+user: 
+  - name: Ajit
+    role: Student
+  - name: Yash
+    role: Manager
+  - name: Lakshit
+    role: Professor
+  - name: Hemant
+    role: Conductor

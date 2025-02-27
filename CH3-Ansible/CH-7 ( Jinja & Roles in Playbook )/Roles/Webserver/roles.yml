@@ -1,0 +1,6 @@
+# this is the main playbook to run the role(webserver)
+--- 
+ - name: testing roles
+   hosts: server1.com , server2.com
+   roles: 
+     - webserver

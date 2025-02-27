@@ -1,0 +1,19 @@
+---
+    - yum:
+        name: "{{ apache }}"
+        state: present
+
+    - service:
+        name: "{{ apache }}"
+        state: started
+        enabled: yes
+
+          # - lineinfile:
+          #path: /var/www/html/index.html
+          #line: "This is for testing role of webserver"
+          # create: yes
+          #setype: httpd_sys_content_t
+    - name: Template
+      template:
+        src: test.j2
+        dest: /var/www/html/index.html
