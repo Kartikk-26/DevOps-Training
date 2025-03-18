@@ -16,9 +16,9 @@
 ├── 📂 Server Administration/
 ├── 📂 Ansible/
 ├── 📂 AWS Cloud/
+├── 📂 Containerization Using Docker/
 ├── 📂 Version Control with Git/
 ├── 📂 Continuous Integration with Jenkins/
-├── 📂 Containerization Using Docker/
 ├── 📂 Terraform Modules & Workspaces/
 ├── 📂 Red Hat OpenShift Administration with Kubernetes/
 ├── 📂 Monitoring/
