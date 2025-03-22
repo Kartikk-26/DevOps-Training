@@ -16,12 +16,12 @@
 ├── 📂 Server Administration/
 ├── 📂 Ansible/
 ├── 📂 AWS Cloud/
-├── 📂 Containerization Using Docker/
+├── 📂 Docker/
+├── 📂 Kubernetes/
 ├── 📂 Version Control with Git/
 ├── 📂 Continuous Integration with Jenkins/
 ├── 📂 Terraform Modules & Workspaces/
-├── 📂 Red Hat OpenShift Administration with Kubernetes/
-├── 📂 Monitoring/
+├── 📂 Monitoring & Prometheus/
 ```  
 
 ---
