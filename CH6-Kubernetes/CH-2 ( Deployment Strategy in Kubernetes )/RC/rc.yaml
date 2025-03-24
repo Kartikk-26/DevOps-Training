@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myapp
+spec:
+  replicas: 10
+  template:
+    metadata:
+      name: xyz
+      labels:
+        app: webserver
+    spec:
+      containers:
+        - name: sdfdf
+          image: httpd
+    

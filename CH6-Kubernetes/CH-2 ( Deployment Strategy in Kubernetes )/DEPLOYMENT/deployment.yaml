@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mywebsite
+spec:
+  selector:
+    matchLabels:
+      app: webserver
+  replicas: 50
+  template:
+    metadata:
+      name: xyz
+      labels:
+        app: webserver
+    spec:
+      containers:
+      - name: sdfdf
+        image: httpd
