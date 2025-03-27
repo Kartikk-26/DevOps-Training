@@ -18,8 +18,8 @@
 ├── 📂 AWS Cloud/
 ├── 📂 Docker/
 ├── 📂 Kubernetes/
+├── 📂 CI/CD with Jenkins/
 ├── 📂 Version Control with Git/
-├── 📂 Continuous Integration with Jenkins/
 ├── 📂 Terraform Modules & Workspaces/
 ├── 📂 Monitoring & Prometheus/
 ```  
