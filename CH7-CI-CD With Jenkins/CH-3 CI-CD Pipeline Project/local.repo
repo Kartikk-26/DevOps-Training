@@ -1,0 +1,9 @@
+[App]
+baseurl = https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os
+enabled = 1
+gpgcheck = 0
+
+[Base]
+baseurl = https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os
+enabled = 1
+gpgcheck = 0

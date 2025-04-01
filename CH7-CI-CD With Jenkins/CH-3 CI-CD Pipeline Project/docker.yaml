@@ -1,0 +1,38 @@
+---
+- name: Launch Docker Container
+  hosts: prod
+  vars:
+    docker_image: "vaibhavjoshi26/project-a"
+    docker_tag: "latest"
+    container_name: "con1"
+    host_port: "80"
+    container_port: "80"
+  tasks:
+    - name: Check if the container is already running
+      docker_container:
+        name: "{{ container_name }}"
+        state: absent
+      register: container_stats
+      ignore_errors: yes
+
+    - name: Remove old container if it exists
+      docker_container:
+        name: "{{ container_name }}"
+        state: absent
+
+    - name: Remove all Docker images
+      shell: docker rmi -f $(docker images -qa)
+      ignore_errors: yes
+
+    - name: Pull the Docker image
+      docker_image:
+        name: "{{ docker_image }}"
+        tag: "{{ docker_tag }}"
+        source: pull
+
+    - name: Run the new Docker Container
+      docker_container:
+        name: "{{ container_name }}"
+        image: "{{ docker_image }}:{{ docker_tag }}"
+        state: started
+        published_ports: "{{ host_port }}:{{ container_port }}"

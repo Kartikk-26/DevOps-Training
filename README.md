@@ -26,61 +26,82 @@
 
 ---
 
+ 
 ## 📚 **Modules Covered**  
 
-### **1. Linux - Red Hat Certified System Administrator (RHCSA)**  
--  Install and manage Red Hat Enterprise Linux.  
--  Master command-line operations and file management.  
--  Configure users, groups, and permissions.  
--  Manage processes, services, daemons, and SSH.  
--  Analyze logs and configure SELinux security.  
--  Work with logical volumes, schedule tasks, and control the boot process.  
+### **1. RHEL Linux & System Administration 🖥️**  
+- Install and manage Red Hat Enterprise Linux.  
+- Master command-line operations and file management.  
+- Configure users, groups, and permissions.  
+- Manage processes, services, daemons, and SSH.  
+- Analyze logs and configure SELinux security.  
+- Work with logical volumes, schedule tasks, and control the boot process.  
+- Configure and manage **NFS Server** for file sharing.  
+- Set up and maintain **DNS Server** for domain name resolution.  
+- Deploy and secure **Apache Web Server**.  
+- Implement best practices for **Securing Websites**.  
 
-### **2. Server Administration**  
--  Manage DNS servers.  
--  Configure MariaDB SQL databases and web servers.  
--  Set up high availability and load balancing using HAProxy.  
+### **2. Server Administration 🌐**  
+- Manage DNS servers.  
+- Configure MariaDB SQL databases and web servers.  
+- Set up high availability and load balancing using **HAProxy**.  
+- **Deploy WordPress with MariaDB** for a fully functional CMS.  
 
-### **3.  Introduction to DevOps**  
--  Understand SDLC and traditional development models.  
--  Learn about the DevOps lifecycle and associated tools.  
+### **3. Ansible - Configuration Management & Automation ⚙️**  
+- Deploy and configure Ansible.  
+- Create and manage playbooks, roles, and tasks.  
+- Automate complex projects with Ansible roles.  
+- **Mastering Ansible – Hands-on Guide!**
+- **Exploring Ansible – Beyond the Basics!**
+- **Writing Smarter Ansible Playbooks for Scalable Automation!**
+- **Making Playbooks Smarter & More Efficient!**
+- **Ansible Magic: From Jinja Templates to Automated Web Deployment!**
 
-### **4. Version Control with Git**  
+### **4. AWS Cloud & Infrastructure ☁️**  
+- Understand cloud computing concepts and AWS global infrastructure.  
+- Work with EC2, S3, VPC, Route 53, and CloudWatch.  
+- Optimize costs and learn about AWS support plans.  
+- **Exploring EC2 on AWS: From Setup to Seamless Automation!**
+- **Exploring AWS Snapshots, AMIs, and Load Balancing!**
+- **Successfully Deployed a Multi-Server Website Using Ansible!**
+- **Implemented Auto Scaling for High Availability & Load Balancing Using AWS!**
+- **Exploring Amazon Route 53 – Making DNS Magic Happen!**
+- **Exploring Amazon S3 – Mastering Scalable Storage & Static Web Hosting!**
+- **Successfully Built a Secure & Scalable AWS VPC Network!**
+- **Exploring AWS IAM & EFS – Mastering Access Control & Scalable Storage!**
+- **Built an Automated Image Resizing & Transfer System on AWS!**
+
+### **5. Containerization Using Docker 🐳**  
+- Learn Docker basics, operations, and lifecycle management.  
+- Build and manage Docker images and containers.  
+- Deploy containerized apps on AWS Elastic Beanstalk.  
+- **Exploring Docker – Basics, Architecture & Hands-on!**
+
+### **6. Kubernetes ☸️**  
+- Configured Kubernetes cluster with master and worker nodes.
+- Set up the master node to manage cluster operations.
+- Configured worker nodes to handle application workloads.
+- Deployed WordPress application using Kubernetes Pods and Services.  
+
+### **7. Continuous Integration with Jenkins ♾️**  
+- Set up Jenkins master-slave architecture.  
+- Configure CI/CD pipelines with complete automation.  
+- Implement role-based access control and ensure Jenkins high availability.
+
+### **8. Version Control with Git 🤖**  
 - Explore version control fundamentals and branching.  
 - Master Git workflows, merging branches, and advanced commands.  
 
-### **5.  Ansible**  
--  Deploy and configure Ansible.  
--  Create and manage playbooks, roles, and tasks.  
--  Automate complex projects with Ansible roles.  
+### **9. Terraform Modules & Workspaces 🔐**  
+- Learn Infrastructure as Code (IaC).  
+- Deploy robust architectures using Terraform.  
 
-### **6.  Continuous Integration with Jenkins**  
--  Set up Jenkins master-slave architecture.  
--  Configure CI/CD pipelines with complete automation.  
--  Implement role-based access control and ensure Jenkins high availability.  
 
-### **7.  Containerization Using Docker**  
--  Learn Docker basics, operations, and lifecycle management.  
--  Build and manage Docker images and containers.  
--  Deploy containerized apps on AWS Elastic Beanstalk.  
+### **10. Monitoring & Logging 📊**  
+- Set up Prometheus and Grafana for monitoring.  
+- Use PromQL for querying and set up alerting systems.  
+- Implement best practices for system and application monitoring.  
 
-### **8.  AWS Cloud**  
--  Understand cloud computing concepts and AWS global infrastructure.  
--  Work with EC2, S3, VPC, Route 53, and CloudWatch.  
--  Optimize costs and learn about AWS support plans.  
-
-### **9.  Terraform Modules & Workspaces**  
--  Learn Infrastructure as Code (IaC).  
--  Deploy robust architectures using Terraform.  
-
-### **10.  Red Hat OpenShift Administration with Kubernetes**  
--  Explore Kubernetes and OpenShift basics.  
--  Manage applications, storage, and updates for high availability.  
-
-### **11.  Monitoring**  
--  Set up Prometheus and Grafana for monitoring.  
--  Use PromQL for querying and set up alerting systems.  
--  Implement best practices for system and application monitoring.  
 
 ---
 
